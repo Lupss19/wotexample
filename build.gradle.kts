@@ -5,7 +5,7 @@ plugins {
     id("io.spring.dependency-management") version "1.1.3"
 }
 
-group = "org.example"
+group = "org.eclipse.thingweb.example"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -22,8 +22,8 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core")
 
-    implementation("org.eclipse.thingweb:kotlin-wot-binding-http")
-    implementation("org.eclipse.thingweb:kotlin-wot-spring-boot-starter")
+    implementation("org.eclipse.thingweb:kotlin-wot-binding-http:0.1.0-SNAPSHOT")
+    implementation("org.eclipse.thingweb:kotlin-wot-spring-boot-starter:0.1.0-SNAPSHOT")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation(kotlin("test"))
